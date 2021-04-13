@@ -25,6 +25,10 @@ background-color: #f8f9fa;
     align-items: center;
 
 }
+.footer_item_content p{
+   color: gray;
+
+}
 
 .Footer2{
     padding : 50px;
@@ -39,14 +43,24 @@ background-color: #f8f9fa;
 }
 .footer2_icon .MuiSvgIcon-root{
     margin: 0 5px;
+    color: gray;
+}
+.footer2_icon .MuiSvgIcon-root:hover{
+    color: indigo;
+    cursor: pointer;
 }
 
 .footer2_bloc{
-
-    padding:0 15px ;
+   
+    padding:0 30px ;
 }
+
+.footer2_bloc p{
+
+color: gray;}
 
 .footer2_bloc ul li{
     list-style: none;
+    color: gray;
 }
 

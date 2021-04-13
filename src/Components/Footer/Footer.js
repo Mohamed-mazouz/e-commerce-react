@@ -13,14 +13,14 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="Footer1">
-                <div className="footer_item">
+                <div className="footer_item m-5">
 
-                    <div className="footer_item_content">
+                    <div className="footer_item_content ">
                         <div className="footer_icon mx-3">
                             <LocalShippingIcon />
                         </div>
                         <div>
-                            <h4>FREE SHOPPING RETURN</h4>
+                            <h6>FREE SHOPPING RETURN</h6>
                             <p>Free shopping over $300</p>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ const Footer = () => {
                             <MonetizationOnIcon />
                         </div>
                         <div>
-                            <h4>FREE SHOPPING RETURN</h4>
+                            <h6>FREE SHOPPING RETURN</h6>
                             <p>Free shopping over $300</p>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ const Footer = () => {
                             <CallIcon />
                         </div>
                         <div>
-                            <h4>FREE SHOPPING RETURN</h4>
+                            <h6>FREE SHOPPING RETURN</h6>
                             <p>Free shopping over $300</p>
                         </div>
                     </div>
@@ -49,9 +49,9 @@ const Footer = () => {
             <div className="Footer2">
                 <div className="footer2_information">
                     <div className="footer2_bloc">
-                        <h4>SELL.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <div className="footer2_icon">
+                        <h6>SELL.</h6>
+                        <p className="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div className="footer2_icon py-3">
                             <FacebookIcon />
                             <TwitterIcon />
                             <InstagramIcon />
@@ -60,7 +60,7 @@ const Footer = () => {
                     </div>
 
                     <div className="footer2_bloc">
-                        <h4>SHOP</h4>
+                        <h6>SHOP</h6>
                         <ul>
                             <li>For Women</li>
                             <li>For Men</li>
@@ -70,7 +70,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="footer2_bloc">
-                        <h4>COMPANY</h4>
+                        <h6>COMPANY</h6>
                         <ul>
                             <li>Login</li>
                             <li>Register</li>
@@ -80,12 +80,22 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="footer2_bloc">
-                        <h4>DAILY OFFERTS & DISCOUNTS</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto temporibus</p>
+                        <h6>DAILY OFFERTS & DISCOUNTS</h6>
+                        <p className="py-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto temporibus</p>
 
+<<<<<<< HEAD
                         <div class="input-group mb-3">
                             <input type="text" class="form-control bg-transparent border" placeholder="Your Email Adress" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                             <span class="input-group-text" id="basic-addon2"><SendIcon /></span>
+=======
+                        <div class="input-group mb-3 py-3">
+                            <input type="text" class="form-control bg-transparent border" placeholder="Your Email Adress" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+                                <span class="input-group-text" id="basic-addon2"><SendIcon/></span>
+                        </div>
+
+
+
+>>>>>>> 7e0bbcdedb8118a6fa04d536dea9ae290f06df1d
                         </div>
                     </div>
                 </div>
